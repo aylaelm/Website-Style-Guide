@@ -1,0 +1,102 @@
+* {
+	box-sizing: border-box;
+}
+
+.colors-section, 
+.fonts-section, 
+.text-styles-section {
+  border: solid 2px silver;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px;
+  max-width: 1200px;
+}
+
+.colors-grid div{
+  display: inline-block;
+}
+
+.color-box {
+  display: block;
+  border-radius: 10px;
+  padding: 50px;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+  margin: 10px 5px;
+  text-align: center;
+}
+
+.royal-purple {
+  background-color: #5603AD;
+  color: white;
+}
+
+.amethyst {
+  background-color: #8367C7;
+  color: white;
+}
+
+.spring-green {
+  background-color: #B3E9C7;
+}
+
+.seafoam {
+  background-color: #C2F8CB;
+}
+
+.tea {
+  background-color: #F0FFF1;
+}
+
+.font-title {
+  text-decoration: underline;
+}
+
+.font {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+.chivo-font-select, h1, h2 {
+  font-family: Chivo, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 550;
+}
+
+p {
+  font-size: 16px;
+}
+
+.tinos-font-select, 
+.colors-grid p,
+ul {
+  font-family: Tinos, "Georgia", serif;
+}
+
+.italic-style {
+  font-style: italic;
+}
+
+.bold-style {
+  font-weight: bold;
+}
+
+
+
+
+
+
